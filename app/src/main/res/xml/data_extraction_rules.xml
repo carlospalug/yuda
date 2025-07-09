@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude sensitive data from cloud backup -->
+        <exclude domain="sharedpref" path="user_credentials.xml"/>
+        <exclude domain="database" path="user_sessions.db"/>
+    </cloud-backup>
+    <device-transfer>
+        <!-- Include user preferences in device transfer -->
+        <include domain="sharedpref" path="app_preferences.xml"/>
+        <include domain="database" path="nightroll_database.db"/>
+    </device-transfer>
+</data-extraction-rules>

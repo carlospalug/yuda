@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude sensitive files from backup -->
+    <exclude domain="sharedpref" path="user_credentials.xml" />
+    <exclude domain="database" path="user_sessions.db" />
+    <exclude domain="file" path="temp_files/" />
+</full-backup-content>

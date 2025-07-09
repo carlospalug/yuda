@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#FF8C00</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="text_color">#101828</color>
+    <color name="secondary_text_color">#475467</color>
+    <color name="button_primary_background">#101828</color>
+    <color name="button_primary_text_color">#FFFFFF</color>
+    <color name="card_background_color">#FFFFFF</color>
+    <color name="border_color">#EAECF0</color>
+    
+    <!-- Additional colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

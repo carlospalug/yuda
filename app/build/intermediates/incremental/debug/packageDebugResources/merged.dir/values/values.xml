@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_height_large">56dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_corner_radius_large">12dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation_high">8dp</dimen>
+    <dimen name="icon_size_lg">32dp</dimen>
+    <dimen name="icon_size_md">24dp</dimen>
+    <dimen name="icon_size_sm">16dp</dimen>
+    <dimen name="icon_size_xl">48dp</dimen>
+    <dimen name="image_size_lg">80dp</dimen>
+    <dimen name="image_size_md">60dp</dimen>
+    <dimen name="image_size_profile">100dp</dimen>
+    <dimen name="image_size_sm">40dp</dimen>
+    <dimen name="image_size_xl">120dp</dimen>
+    <dimen name="list_item_height">56dp</dimen>
+    <dimen name="list_item_height_large">72dp</dimen>
+    <dimen name="map_fab_margin">16dp</dimen>
+    <dimen name="map_fab_size">56dp</dimen>
+    <dimen name="reel_thumbnail_size">100dp</dimen>
+    <dimen name="search_bar_corner_radius">24dp</dimen>
+    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="text_size_header">28sp</dimen>
+    <dimen name="text_size_lg">16sp</dimen>
+    <dimen name="text_size_md">14sp</dimen>
+    <dimen name="text_size_sm">12sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_xl">18sp</dimen>
+    <dimen name="text_size_xs">10sp</dimen>
+    <dimen name="text_size_xxl">20sp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <string name="app_name">Nightroll</string>
+    <string name="back_button">Back</string>
+    <string name="bar_added_to_favorites">Bar added to favorites</string>
+    <string name="bar_image">Bar image</string>
+    <string name="bar_removed_from_favorites">Bar removed from favorites</string>
+    <string name="bars_active_tonight">BARS ACTIVE TONIGHT</string>
+    <string name="bio">Bio</string>
+    <string name="camera_permission_required">Camera permission is required to take photos</string>
+    <string name="cancel">Cancel</string>
+    <string name="cities">Cities</string>
+    <string name="comments_tab">COMMENTS</string>
+    <string name="directions">Directions</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="error">Error</string>
+    <string name="favourites">Favourites</string>
+    <string name="filter_active">Active</string>
+    <string name="filter_all">All</string>
+    <string name="filter_button">Filter</string>
+    <string name="filter_club">Club</string>
+    <string name="filter_lounge">Lounge</string>
+    <string name="filter_nearby">Nearby</string>
+    <string name="filter_rooftop">Rooftop</string>
+    <string name="follow">Follow</string>
+    <string name="followers_count">%d followers</string>
+    <string name="following">FOLLOWING</string>
+    <string name="following_status">Following</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="google_maps_key" translatable="false">AIzaSyCOU93j67uGsk5_RbZ_PUhrOjj6gEYex-A</string>
+    <string name="home_header">NIGHTROLL</string>
+    <string name="july">July</string>
+    <string name="labelled">Labelled</string>
+    <string name="loading">Loading...</string>
+    <string name="location_error">Unable to get your location</string>
+    <string name="location_history_subtitle">from your Location History</string>
+    <string name="location_permission_required">Location permission is required to show nearby bars</string>
+    <string name="map_title">Roll Map</string>
+    <string name="maps_not_available">Google Maps is not available</string>
+    <string name="menu_button">Menu</string>
+    <string name="my_hangouts">My Hangouts</string>
+    <string name="nearby_spots">NEARBY SPOTS</string>
+    <string name="network_error">Network error. Please check your connection.</string>
+    <string name="next_outings">Next Outings</string>
+    <string name="nightlife_stats">Your Nightlife Stats</string>
+    <string name="nightlist_tab">NIGHTLIST</string>
+    <string name="no_data">No data available</string>
+    <string name="ok">OK</string>
+    <string name="past_spots">Past Spots</string>
+    <string name="places">Places</string>
+    <string name="play_reel">Play reel</string>
+    <string name="profile">Profile</string>
+    <string name="profile_image">Profile image</string>
+    <string name="profile_updated">Profile updated successfully</string>
+    <string name="reel_thumbnail">Reel thumbnail</string>
+    <string name="reels">Reels</string>
+    <string name="report_issue">Report an issue</string>
+    <string name="retry">Retry</string>
+    <string name="rolling_active">YOU\'RE ROLLING! 🎉</string>
+    <string name="rolling_tonight">I\'M ROLLING TONIGHT</string>
+    <string name="save">Save</string>
+    <string name="search_button">Search</string>
+    <string name="search_hint">Search bars, events, locations...</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="starred_places">Starred Places</string>
+    <string name="storage_permission_required">Storage permission is required to save images</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Roll Map</string>
+    <string name="title_nightlist">Nightlist</string>
+    <string name="title_profile">Profile</string>
+    <string name="trending_now">TRENDING NOW</string>
+    <string name="vibe_recap">Vibe Recap</string>
+    <string name="weekly_vibe">Weekly Vibe</string>
+    <string name="yesterday">Yesterday</string>
+    <style name="TextAppearance.Nightroll" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="TextAppearance.Nightroll.Body1" parent="TextAppearance.Nightroll">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.Nightroll.Body2" parent="TextAppearance.Nightroll">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+    </style>
+    <style name="TextAppearance.Nightroll.Caption" parent="TextAppearance.Nightroll">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+    </style>
+    <style name="TextAppearance.Nightroll.Headline1" parent="TextAppearance.Nightroll">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Nightroll.Headline2" parent="TextAppearance.Nightroll">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.Nightroll" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/button_primary_text_color</item>
+        <item name="colorPrimaryContainer">@color/primary_color</item>
+        <item name="colorOnPrimaryContainer">@color/button_primary_text_color</item>
+        
+        
+        <item name="colorSecondary">@color/secondary_text_color</item>
+        <item name="colorOnSecondary">@color/text_color</item>
+        <item name="colorSecondaryContainer">@color/card_background_color</item>
+        <item name="colorOnSecondaryContainer">@color/text_color</item>
+        
+        
+        <item name="colorTertiary">@color/border_color</item>
+        <item name="colorOnTertiary">@color/text_color</item>
+        <item name="colorTertiaryContainer">@color/card_background_color</item>
+        <item name="colorOnTertiaryContainer">@color/text_color</item>
+        
+        
+        <item name="colorError">@android:color/holo_red_dark</item>
+        <item name="colorErrorContainer">@android:color/holo_red_light</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorOnErrorContainer">@android:color/holo_red_dark</item>
+        
+        
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorOnBackground">@color/text_color</item>
+        <item name="colorSurface">@color/card_background_color</item>
+        <item name="colorOnSurface">@color/text_color</item>
+        <item name="colorSurfaceVariant">@color/border_color</item>
+        <item name="colorOnSurfaceVariant">@color/secondary_text_color</item>
+        
+        
+        <item name="colorOutline">@color/border_color</item>
+        <item name="colorOnSurfaceInverse">@color/background_color</item>
+        <item name="colorSurfaceInverse">@color/text_color</item>
+        <item name="colorPrimaryInverse">@color/primary_color</item>
+        
+        
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        
+        <item name="android:navigationBarColor">@color/card_background_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="Theme.Nightroll.Fullscreen" parent="Theme.Nightroll.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="Theme.Nightroll.NoActionBar" parent="Theme.Nightroll">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Widget.Nightroll.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/card_background_color</item>
+        <item name="itemIconTint">@color/primary_color</item>
+        <item name="itemTextColor">@color/text_color</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+    <style name="Widget.Nightroll.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.Nightroll.Button.Primary" parent="Widget.Nightroll.Button">
+        <item name="backgroundTint">@color/button_primary_background</item>
+        <item name="android:textColor">@color/button_primary_text_color</item>
+    </style>
+    <style name="Widget.Nightroll.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="strokeColor">@color/border_color</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="Widget.Nightroll.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/card_background_color</item>
+        <item name="strokeColor">@color/border_color</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="Widget.Nightroll.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary_color</item>
+        <item name="tint">@color/button_primary_text_color</item>
+    </style>
+    <style name="Widget.Nightroll.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@drawable/search_background</item>
+        <item name="queryBackground">@android:color/transparent</item>
+        <item name="submitBackground">@android:color/transparent</item>
+    </style>
+    <style name="Widget.Nightroll.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/background_color</item>
+        <item name="titleTextColor">@color/text_color</item>
+        <item name="navigationIconTint">@color/text_color</item>
+    </style>
+</resources>

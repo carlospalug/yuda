@@ -1,0 +1,3 @@
+com.nightroll.app.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

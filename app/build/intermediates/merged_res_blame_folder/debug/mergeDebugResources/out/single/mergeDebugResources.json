@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_list.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_list.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_fragment_profile.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_activity_main.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_item_bar_card.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/item_bar_card.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/xml_backup_rules.xml.flat",
+        "source": "com.nightroll.app-main-71:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/navigation_mobile_navigation.xml.flat",
+        "source": "com.nightroll.app-main-71:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_activity_navigation.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/activity_navigation.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_directions.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_directions.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_item_hangout_list.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/item_hangout_list.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_item_weekly_vibe.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/item_weekly_vibe.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_person.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/xml_file_paths.xml.flat",
+        "source": "com.nightroll.app-main-71:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_activity_edit_profile.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_play.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_gradient_overlay.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/gradient_overlay.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_home.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_activity_reel_player.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/activity_reel_player.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_fragment_nightlist.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/fragment_nightlist.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_item_location_history.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/item_location_history.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_search_background.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/search_background.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.nightroll.app-main-71:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_fragment_home.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_activity_settings.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_fragment_navigation_map.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/fragment_navigation_map.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/drawable_ic_map.xml.flat",
+        "source": "com.nightroll.app-main-71:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_activity_bar_details.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/activity_bar_details.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_fragment_map.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/layout_item_reel_thumbnail.xml.flat",
+        "source": "com.nightroll.app-main-71:/layout/item_reel_thumbnail.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/xml_data_extraction_rules.xml.flat",
+        "source": "com.nightroll.app-main-71:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.nightroll.app-debug-69:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.nightroll.app-main-71:/mipmap-mdpi/ic_launcher_foreground.png"
+    }
+]

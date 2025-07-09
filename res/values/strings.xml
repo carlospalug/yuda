@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nightroll</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Roll Map</string>
+    <string name="title_nightlist">Nightlist</string>
+    <string name="title_profile">Profile</string>
+</resources>

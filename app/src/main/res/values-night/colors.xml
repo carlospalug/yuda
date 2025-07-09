@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors for future implementation -->
+    <color name="background_color">@color/background_color_night</color>
+    <color name="surface_color">@color/surface_color_night</color>
+    <color name="card_background_color">@color/surface_color_night</color>
+    <color name="text_color">@color/text_color_night</color>
+    <color name="secondary_text_color">@color/secondary_text_color_night</color>
+    
+    <!-- Keep primary colors the same -->
+    <color name="primary_color">#FF8C00</color>
+    <color name="button_primary_background">#FF8C00</color>
+    <color name="button_primary_text_color">#000000</color>
+    
+    <!-- Adjust button secondary for dark theme -->
+    <color name="button_secondary_background">#2A2A2A</color>
+    <color name="button_secondary_text_color">#FFFFFF</color>
+    
+    <!-- Adjust borders for dark theme -->
+    <color name="border_color">#404040</color>
+    <color name="divider_color">#2A2A2A</color>
+</resources>

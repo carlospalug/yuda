@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/background_color"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:title=""
+            app:titleTextColor="@color/text_color" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Bar Image -->
+            <ImageView
+                android:id="@+id/image_bar"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                app:cornerRadius="60dp" />
+
+            <!-- Bar Name -->
+            <TextView
+                android:id="@+id/text_bar_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/inter_bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Bar Type -->
+            <TextView
+                android:id="@+id/text_bar_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/secondary_text_color"
+                android:fontFamily="@font/inter_regular"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Bar Address -->
+            <TextView
+                android:id="@+id/text_bar_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/secondary_text_color"
+                android:fontFamily="@font/inter_regular"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Directions Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_directions"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Directions"
+                android:textColor="@color/button_primary_text_color"
+                android:backgroundTint="@color/button_primary_background"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginBottom="32dp"
+                app:cornerRadius="8dp"
+                app:icon="@drawable/ic_directions"
+                app:iconTint="@color/button_primary_text_color" />
+
+            <!-- Weekly Vibe Section -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weekly Vibe"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/inter_bold"
+                android:layout_marginBottom="16dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_weekly_vibe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp" />
+
+            <!-- Reels Section -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reels"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/inter_bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Report Link -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Report an issue"
+                android:textSize="14sp"
+                android:textColor="@color/primary_color"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center"
+                android:layout_marginTop="32dp"
+                android:padding="16dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

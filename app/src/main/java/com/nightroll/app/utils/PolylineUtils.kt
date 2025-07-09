@@ -81,10 +81,10 @@ object PolylineUtils {
         var value = if (v < 0) (v shl 1).inv() else v shl 1
         
         while (value >= 0x20) {
-            result.append(((0x20 or (value and 0x1f)) + 63).toChar())
+            result.append(((0x20 or (value and 0x1f)) + 63).toInt().toChar())
             value = value shr 5
         }
         
-        result.append((value + 63).toChar())
+        result.append((value + 63).toInt().toChar())
     }
 }

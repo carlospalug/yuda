@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Day theme specific colors -->
+    <color name="background_color">#FFFFFFFF</color> <!-- Assuming white background for day theme -->
+    <color name="surface_color">#FFFFFFFF</color> <!-- Assuming white surface for day theme -->
+    <color name="card_background_color">#FFF5F5F5</color> <!-- Light gray for cards -->
+    <color name="text_color">#FF000000</color> <!-- Black text for day theme -->
+    <color name="secondary_text_color">#8A000000</color> <!-- Dark gray for secondary text -->
+
+    <!-- Primary colors (can be the same for both themes or overridden in values-night) -->
+    <color name="primary_color">#FF8C00</color> <!-- Orange, as seen in values-night/colors.xml -->
+    <color name="button_primary_background">#FF8C00</color>
+    <color name="button_primary_text_color">#000000</color>
+
+    <!-- Button secondary (can be the same or overridden) -->
+    <color name="button_secondary_background">#E0E0E0</color> <!-- Light gray for secondary buttons -->
+    <color name="button_secondary_text_color">#000000</color> <!-- Black text -->
+
+    <!-- Borders and dividers (can be the same or overridden) -->
+    <color name="border_color">#FFCCCCCC</color> <!-- Light gray border -->
+    <color name="divider_color">#FFDDDDDD</color> <!-- Lighter gray divider -->
+
+    <!-- Added based on new build errors -->
+    <color name="error_color">#FFD32F2F</color> <!-- Standard Red 700 for errors -->
+    <color name="rating_color">#FFFFB300</color> <!-- Standard Amber 700 for ratings -->
+    <color name="success_color">#FF388E3C</color> <!-- Standard Green 700 for success -->
+</resources>

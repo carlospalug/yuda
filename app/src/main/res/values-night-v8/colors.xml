@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Specific definitions for values-night-v8 to address linking errors -->
+    <color name="background_color_night">#FF121212</color> <!-- Common dark background -->
+    <color name="surface_color_night">#FF1E1E1E</color> <!-- Slightly lighter dark surface -->
+    <color name="text_color_night">#FFFFFFFF</color> <!-- White text for dark theme -->
+    <color name="secondary_text_color_night">#B3FFFFFF</color> <!-- Semi-transparent white for secondary text -->
+
+    <!-- It's also good practice to ensure the non-suffixed versions are here too for this specific qualifier,
+         in case the DayNight theme still tries to resolve them within this specific context.
+         These can point to the _night versions or be direct hex values. -->
+    <color name="background_color">@color/background_color_night</color>
+    <color name="surface_color">@color/surface_color_night</color>
+    <color name="card_background_color">@color/surface_color_night</color> <!-- Assuming cards use surface color -->
+    <color name="text_color">@color/text_color_night</color>
+    <color name="secondary_text_color">@color/secondary_text_color_night</color>
+
+    <!-- You might need to add other colors referenced by your theme for -night-v8 if more errors appear -->
+    <!-- For example, if Theme.Nightroll uses colorPrimary for -night-v8 -->
+    <color name="primary_color">#FF8C00</color> <!-- Orange, consistent with other definitions -->
+    <color name="button_primary_text_color">#000000</color>
+
+    <!-- Fallback for white if it was ever directly referenced in a -night-v8 style -->
+    <color name="white">#FFFFFFFF</color>
+</resources>

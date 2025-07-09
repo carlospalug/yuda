@@ -1,6 +1,6 @@
 com.nightroll.app.test.app-jetified-core-1.6.1-0 /home/usf/.gradle/caches/8.9/transforms/9437127f7368336175b0cd32bff321f6/transformed/jetified-core-1.6.1/res
 com.nightroll.app.test.app-jetified-tracing-1.2.0-1 /home/usf/.gradle/caches/8.9/transforms/e96ce8ec349610094a13c511ed0b3495/transformed/jetified-tracing-1.2.0/res
-com.nightroll.app.test.app-androidTest-2 /home/usf/Desktop/Yuda/app/build/generated/res/resValues/androidTest/debug
-com.nightroll.app.test.app-mergeDebugAndroidTestResources-3 /home/usf/Desktop/Yuda/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.nightroll.app.test.app-mergeDebugAndroidTestResources-4 /home/usf/Desktop/Yuda/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.nightroll.app.test.app-debugAndroidTest-5 /home/usf/Desktop/Yuda/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.nightroll.app.test.app-androidTest-2 /home/usf/Desktop/nightroll/app/build/generated/res/resValues/androidTest/debug
+com.nightroll.app.test.app-mergeDebugAndroidTestResources-3 /home/usf/Desktop/nightroll/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.nightroll.app.test.app-mergeDebugAndroidTestResources-4 /home/usf/Desktop/nightroll/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.nightroll.app.test.app-debugAndroidTest-5 /home/usf/Desktop/nightroll/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

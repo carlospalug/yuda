@@ -63,9 +63,9 @@ com.nightroll.app-core-1.15.0-61 /home/usf/.gradle/caches/8.9/transforms/f90a134
 com.nightroll.app-jetified-media3-exoplayer-1.4.1-62 /home/usf/.gradle/caches/8.9/transforms/f9ea53a7567f22318f543056db9041e4/transformed/jetified-media3-exoplayer-1.4.1/res
 com.nightroll.app-lifecycle-livedata-2.8.7-63 /home/usf/.gradle/caches/8.9/transforms/fb13143caad5786ef8baed10ac6c63b8/transformed/lifecycle-livedata-2.8.7/res
 com.nightroll.app-jetified-fragment-ktx-1.8.5-64 /home/usf/.gradle/caches/8.9/transforms/fb5ebbd4e5ac923fc37732402d4b934a/transformed/jetified-fragment-ktx-1.8.5/res
-com.nightroll.app-resValues-65 /home/usf/Desktop/Yuda/app/build/generated/res/resValues/debug
-com.nightroll.app-packageDebugResources-66 /home/usf/Desktop/Yuda/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.nightroll.app-packageDebugResources-67 /home/usf/Desktop/Yuda/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.nightroll.app-debug-68 /home/usf/Desktop/Yuda/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.nightroll.app-debug-69 /home/usf/Desktop/Yuda/app/src/debug/res
-com.nightroll.app-main-70 /home/usf/Desktop/Yuda/app/src/main/res
+com.nightroll.app-resValues-65 /home/usf/Desktop/nightroll/app/build/generated/res/resValues/debug
+com.nightroll.app-packageDebugResources-66 /home/usf/Desktop/nightroll/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.nightroll.app-packageDebugResources-67 /home/usf/Desktop/nightroll/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.nightroll.app-debug-68 /home/usf/Desktop/nightroll/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.nightroll.app-debug-69 /home/usf/Desktop/nightroll/app/src/debug/res
+com.nightroll.app-main-70 /home/usf/Desktop/nightroll/app/src/main/res

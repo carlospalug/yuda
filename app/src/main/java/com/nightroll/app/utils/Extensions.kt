@@ -61,16 +61,16 @@ fun <T> LiveData<T>.observeOnce(owner: LifecycleOwner, observer: Observer<T>) {
 }
 
 // Flow extensions
-fun <T> Flow<T>.withLoading(): Flow<Resource<T>> = this
-    .onStart { emit(Resource.Loading()) }
-    .catch { emit(Resource.Error(it.message ?: "Unknown error")) }
-    .let { flow ->
-        kotlinx.coroutines.flow.flow {
-            flow.collect { data ->
-                emit(Resource.Success(data))
-            }
+fun <T> Flow<T>.withLoading(): Flow<Resource<T>> = kotlinx.coroutines.flow.flow {
+    emit(Resource.Loading<T>()) // Emit Loading state first
+    try {
+        this@withLoading.collect { data -> // Collect from the original flow
+            emit(Resource.Success(data)) // Emit Success state with data
         }
+    } catch (e: Exception) {
+        emit(Resource.Error<T>(e.message ?: "Unknown error in flow")) // Emit Error state
     }
+}
 
 // Resource wrapper for handling loading states
 sealed class Resource<T> {
@@ -98,4 +98,3 @@ fun Int.dpToPx(context: Context): Int {
 fun Int.pxToDp(context: Context): Int {
     return (this / context.resources.displayMetrics.density).toInt()
 }
-</btml>

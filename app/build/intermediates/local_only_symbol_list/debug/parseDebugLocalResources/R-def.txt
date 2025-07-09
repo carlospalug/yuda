@@ -1,6 +1,8 @@
 R_DEF: Internal format may change without notice
 local
 color background_color
+color background_color_night
+color black
 color border_color
 color button_primary_background
 color button_primary_text_color
@@ -8,10 +10,17 @@ color button_secondary_background
 color button_secondary_text_color
 color card_background_color
 color divider_color
+color error_color
 color primary_color
+color rating_color
 color secondary_text_color
+color secondary_text_color_night
+color success_color
 color surface_color
+color surface_color_night
 color text_color
+color text_color_night
+color white
 dimen bottom_nav_height
 dimen button_height
 dimen button_height_large

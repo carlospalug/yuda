@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Dark theme colors for future implementation -->
-    <color name="background_color">@color/background_color_night</color>
-    <color name="surface_color">@color/surface_color_night</color>
-    <color name="card_background_color">@color/surface_color_night</color>
-    <color name="text_color">@color/text_color_night</color>
-    <color name="secondary_text_color">@color/secondary_text_color_night</color>
+    <!-- Colors defined here are for general night mode, *not* for values-night-v8
+         if they are already defined in values-night-v8/colors.xml -->
+
+    <!-- Button secondary for dark theme -->
+    <color name="button_secondary_background">#2A2A2A</color> <!-- Dark gray -->
+    <color name="button_secondary_text_color">#FFFFFF</color> <!-- White text -->
     
-    <!-- Keep primary colors the same -->
-    <color name="primary_color">#FF8C00</color>
-    <color name="button_primary_background">#FF8C00</color>
-    <color name="button_primary_text_color">#000000</color>
-    
-    <!-- Adjust button secondary for dark theme -->
-    <color name="button_secondary_background">#2A2A2A</color>
-    <color name="button_secondary_text_color">#FFFFFF</color>
-    
-    <!-- Adjust borders for dark theme -->
-    <color name="border_color">#404040</color>
-    <color name="divider_color">#2A2A2A</color>
+    <!-- Borders and dividers for dark theme -->
+    <color name="border_color">#404040</color> <!-- Darker gray border -->
+    <color name="divider_color">#2A2A2A</color> <!-- Dark gray divider -->
+
+    <!-- Optional: Define night versions for error and rating colors if different from day theme,
+         assuming they are not handled by values-night-v8/colors.xml -->
+    <!-- <color name="error_color">#FFCF6679</color> -->
+    <!-- <color name="rating_color">#FFFFD54F</color> -->
+
+    <!-- NOTE: background_color, surface_color, card_background_color, text_color, 
+         secondary_text_color, primary_color, button_primary_text_color, 
+         and their _night suffixed versions have been removed from this file
+         to prevent duplication with values-night-v8/colors.xml.
+         Ensure values-night-v8/colors.xml correctly defines them. -->
 </resources>

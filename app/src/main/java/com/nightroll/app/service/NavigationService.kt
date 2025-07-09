@@ -10,6 +10,7 @@ import android.location.Location
 import android.os.Binder
 import android.os.Build
 import android.os.IBinder
+import android.os.Looper
 import android.speech.tts.TextToSpeech
 import androidx.core.app.NotificationCompat
 import com.google.android.gms.location.*
@@ -21,6 +22,7 @@ import com.nightroll.app.utils.LocationUtils
 import com.nightroll.app.utils.PolylineUtils
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
+import kotlinx.coroutines.asExecutor
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import java.util.*
@@ -161,7 +163,7 @@ class NavigationService : Service(), TextToSpeech.OnInitListener {
             fusedLocationClient.requestLocationUpdates(
                 locationRequest,
                 locationCallback,
-                serviceScope.coroutineContext.asExecutor()
+                Looper.getMainLooper()
             )
         } catch (e: SecurityException) {
             // Handle permission error

@@ -126,8 +126,8 @@ data class DirectionLeg(
     val start_address: String,
     val start_location: PlaceLocation,
     val steps: List<DirectionStep>,
-    val traffic_speed_entry: List<Any>? = null,
-    val via_waypoint: List<Any>? = null
+    val traffic_speed_entry: List<String>? = null,
+    val via_waypoint: List<String>? = null
 ) : Parcelable
 
 @Parcelize

@@ -55,14 +55,14 @@ object PolylineUtils {
      * Encodes a list of LatLng points into a polyline string
      */
     fun encode(path: List<LatLng>): String {
-        var lastLat = 0L
-        var lastLng = 0L
+        var lastLat = 0
+        var lastLng = 0
         
         val result = StringBuilder()
         
         for (point in path) {
-            val lat = Math.round(point.latitude * 1e5)
-            val lng = Math.round(point.longitude * 1e5)
+            val lat = (point.latitude * 1e5).roundToInt()
+            val lng = (point.longitude * 1e5).roundToInt()
             
             val dLat = lat - lastLat
             val dLng = lng - lastLng
@@ -77,14 +77,18 @@ object PolylineUtils {
         return result.toString()
     }
     
-    private fun encode(v: Long, result: StringBuilder) {
+    private fun encode(v: Int, result: StringBuilder) {
         var value = if (v < 0) (v shl 1).inv() else v shl 1
         
         while (value >= 0x20) {
-            result.append(((0x20 or (value and 0x1f)) + 63).toInt().toChar())
+            result.append(((0x20 or (value and 0x1f)) + 63).toChar())
             value = value shr 5
         }
         
-        result.append((value + 63).toInt().toChar())
+        result.append((value + 63).toChar())
     }
 }
+
+// Helper extension function for rounding Double to Int if not available
+// (kotlin.math.roundToInt was added in Kotlin 1.4, ensure it's available or define it)
+private fun Double.roundToInt(): Int = Math.round(this).toInt()

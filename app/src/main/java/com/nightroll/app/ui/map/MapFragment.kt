@@ -134,7 +134,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListe
                             .snippet("${bar.type} • ${bar.vibe}")
                             .icon(if (bar.isActive) 
                                 BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)
-                                else BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREY))
+                                else BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREY)) // 여기가 수정된 부분
                     )
                     marker?.tag = bar
                 }
